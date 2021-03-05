@@ -4,7 +4,7 @@ namespace SequenceSum
 {
     class Program
     {
-        static int Main(string[] args)
+        static void Main(string[] args)
         {
             double N, L;
             string[] input = Console.ReadLine().Split(" ");
@@ -22,11 +22,11 @@ namespace SequenceSum
                         Console.Write($"{i} ");
                     }
                     Console.Write($"{n+startReally-1}");
-                    return 0;
+                    return;
                 }
             }
             Console.WriteLine("No");
-            return 0;
+            return;
         }
     }
 }
