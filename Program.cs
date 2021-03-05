@@ -13,7 +13,7 @@ namespace SequenceSum
 
             for(int n=Convert.ToInt32(L);n<=100; n++)
             {
-                double start = (2 * N - n - n * n) / (2 * n);
+                double start = (2 * N + n - n * n) / (2 * n);
                 if (start%1==0)
                 {
                     int startReally = Convert.ToInt32(start);
